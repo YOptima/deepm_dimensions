@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Advertiser_Currency",
+    "type": "STRING"
+  },
+  {
+    "name": "Date",
+    "type": "DATE"
+  },
+  {
+    "name": "Partner_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Partner",
+    "type": "STRING"
+  },
+  {
+    "name": "Advertiser_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Advertiser",
+    "type": "STRING"
+  },
+  {
+    "name": "Advertiser_Status",
+    "type": "STRING"
+  },
+  {
+    "name": "Line_Item_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Line_Item",
+    "type": "STRING"
+  },
+  {
+    "name": "Line_Item_Status",
+    "type": "STRING"
+  },
+  {
+    "name": "Line_Item_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Insertion_Order_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Insertion_Order",
+    "type": "STRING"
+  },
+  {
+    "name": "Insertion_Order_Status",
+    "type": "STRING"
+  },
+  {
+    "name": "Insertion_Order_Goal_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Campaign_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Campaign",
+    "type": "STRING"
+  },
+  {
+    "name": "Floodlight_Activity_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Floodlight_Activity",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Creative",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_Size",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_Status",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "CM_Placement_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Environment",
+    "type": "STRING"
+  },
+  {
+    "name": "Impressions",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Clicks",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Media_Cost_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Cost_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Revenue_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Revenue_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Total_Media_Cost_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Total_Media_Cost_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Active_View_Measurable_Impressions",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Active_View_Viewable_Impressions",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Media_Fee1_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee1_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee2_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee2_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee3_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee3_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee4_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee4_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee5_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Media_Fee5_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Data_Fees_USD",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Data_Fees_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "name": "First_Quartile_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Midpoint_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Third_Quartile_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Complete_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Youtube_Views",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Post_Click_Conversions_30D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_View_Conversions_30D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_Click_Conversions_7D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_View_Conversions_7D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_Click_Conversions_3D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_View_Conversions_3D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_Click_Conversions_1D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_View_Conversions_1D",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_Click_Conversions_1H",
+    "type": "FLOAT"
+  },
+  {
+    "name": "Post_View_Conversions_1H",
+    "type": "FLOAT"
+  }
+]

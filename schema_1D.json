@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Advertiser_Currency",
+    "type": "STRING"
+  },
+  {
+    "name": "Date",
+    "type": "DATE"
+  },
+  {
+    "name": "Partner_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Partner",
+    "type": "STRING"
+  },
+  {
+    "name": "Advertiser_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Advertiser",
+    "type": "STRING"
+  },
+  {
+    "name": "Advertiser_Status",
+    "type": "STRING"
+  },
+  {
+    "name": "Line_Item_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Line_Item",
+    "type": "STRING"
+  },
+  {
+    "name": "Line_Item_Status",
+    "type": "STRING"
+  },
+
+{
+    "name": "Line_Item_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Insertion_Order_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Insertion_Order",
+    "type": "STRING"
+  },
+  {
+    "name": "Insertion_Order_Status",
+    "type": "STRING"
+  },
+  {
+    "name": "Insertion_Order_Goal_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Campaign_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Campaign",
+    "type": "STRING"
+  },
+  {
+    "name": "Floodlight_Activity_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Floodlight_Activity",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_ID",
+    "type": "INTEGER"
+  },
+{
+    "name": "Creative",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_Size",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_Status",
+    "type": "STRING"
+  },
+  {
+    "name": "Creative_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "CM_Placement_ID",
+    "type": "INTEGER"
+  },
+
+  {
+    "name": "Device_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Environment",
+    "type": "STRING"
+  },
+  {
+    "name": "Post_Click_Conversions_1D",
+    "type": "FLOAT"
+  },
+{
+    "name": "Post_View_Conversions_1D",
+    "type": "FLOAT"
+  }
+]
