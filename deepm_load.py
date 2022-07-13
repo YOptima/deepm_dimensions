@@ -15,7 +15,7 @@ def main():
     yesterday = date.today() - timedelta(days = 1)
     curr_date = yesterday.strftime("%Y/%m/%d")
     file = pathlib.Path("/home/yoptima/DeepVu/advertiser-deeplake/tableau/lock_" + advertiser_name)
-    if curr_date == date_validator(report_id_base, "31") and curr_date == date_validator(report_id_7d, "31") and curr_date == date_validator(report_id_3d, "31") and curr_date == date_validator(report_id_1d, "31") and curr_date == date_validator(report_id_1h, "31") and not file.exists():
+    if curr_date == date_validator(report_id_base, "33") and curr_date == date_validator(report_id_7d, "33") and curr_date == date_validator(report_id_3d, "33") and curr_date == date_validator(report_id_1d, "33") and curr_date == date_validator(report_id_1h, "33") and not file.exists():
         timestamp = datetime.now()
         print("Data loading to bigquery Started at ", timestamp)
         subprocess.call("./deepm_transfer.sh " + advertiser_name + "  " + report_id_base + " " + report_id_7d + " " + report_id_3d + " " + report_id_1d + " " + report_id_1h, shell = True)

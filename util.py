@@ -95,13 +95,13 @@ def load_user_credentials(client_secrets, storage, flags):
 
   return credentials
 def new_credentials(client_secrets, storage, flags):
-    appflow = flow.InstalledAppFlow.from_client_secrets_file(
+  appflow = flow.InstalledAppFlow.from_client_secrets_file(
     "client_secrets.json", scopes=API_SCOPES
 )
-     credentials = storage.get()
-     if credentials is None or credentials.invalid:
-         credentials = appflow.run_console(appflow, storage, flags)
-     return credentials
+  credentials = storage.get()
+  if credentials is None or credentials.invalid:
+     credentials = appflow.run_console(appflow, storage, flags)
+  return credentials
 
 
 def setup(flags):
